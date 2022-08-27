@@ -11,6 +11,9 @@ export default (code: string): Token[] => {
     '+': () => addToken(TokenType.PLUS),
   }
 
+  // It would be nice just to have the functions rather than nesting
+  // them one level but that would involve declaring them above here,
+  // which I currently don't want to do.
   const functionalLexemes: Array<[boolFunc, voidFunc]> = [
     [(char) => isDigit(char), () => handleNumber()],
     [(char) => isDigit(char), () => handleNumber()],
