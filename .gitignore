@@ -1,0 +1,11 @@
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+
+# Javascript Stuff
+/node_modules
+/yarn-error.log
+/yarn-debug.log*
+/.yarn-integrity
+
+

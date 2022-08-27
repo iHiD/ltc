@@ -1,0 +1,5 @@
+{
+  "extends": "@tsconfig/node18-strictest-esm/tsconfig.json",
+  "exclude": ["node_modules"],
+  "compileOnSave": false
+}
