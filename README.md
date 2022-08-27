@@ -1,3 +1,7 @@
+# LTC
+
+A programming language for learning to code.
+
 ## Javascript Setup
 
 - Typescript (via package.json and tsconfig.json)
@@ -27,7 +31,7 @@
 
 ##### Husky
 
-- husky
+- `husky`
 
 ##### Jest
 
@@ -37,8 +41,8 @@
 
 ##### Prettier
 
-- prettier
-- pretty-quick
+- `prettier`
+- `pretty-quick`
 
 ##### Typescript
 
