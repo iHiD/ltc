@@ -41,7 +41,7 @@ export default (code: string): Token[] => {
    * *********
    * *********/
   const isDigit = (char: string): boolean => {
-    return !isNaN(char as any)
+    return !isNaN(char as any) // eslint-disable-line @typescript-eslint/no-explicit-any
   }
 
   /* *********
