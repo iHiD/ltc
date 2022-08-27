@@ -1,5 +1,9 @@
 # Langauge Specification
 
+A formal grammar can be seen in [grammar.ebnf](./grammar.ebnf) which can be visualised on website such as https://bottlecaps.de/rr/ui.
+
+This document lists that grammar out in a more human-readable format with extra details.
+
 ## Data Types
 
 ### Booleans

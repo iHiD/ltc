@@ -1,0 +1,7 @@
+
+
+NUMBER ::= DIGIT + ( "." DIGIT+ )?
+IDENTIFIER ::= NOT_DIGIT_CHAR ( CHAR )*
+NOT_DIGIT_CHAR ::= CHAR - DIGIT
+DIGIT ::= "0"..."9"
+CHAR ::= "Any valid UTF8 Character"

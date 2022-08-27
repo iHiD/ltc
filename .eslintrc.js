@@ -25,5 +25,9 @@ module.exports = {
   rules: {
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'prefer-arrow-callback': 'error',
+    '@typescript-eslint/restrict-template-expressions': [
+      'error',
+      { allowNumber: true, allowBoolean: true, allowNullish: true },
+    ],
   },
 }
